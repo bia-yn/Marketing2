@@ -1,0 +1,264 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20pt;
+    margin: 0;
+}
+
+#logo{
+    width: 100%;
+    height: 5rem;
+    background-color: black;
+}
+
+/*main 1*/
+#main1{
+    height: 92vh;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#text-main-1{
+    width: 40%;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    
+}
+
+#pcolor{
+    color:  rgb(110, 147, 74);
+    font-weight: 300;
+}
+
+.button-p{
+    background-color: rgb(110, 147, 74);
+    color: #fff;
+    padding: 25px;
+    margin: 20px;
+    border: none;
+    font-weight: 500;
+    border-radius: 10px;
+    transition: 1.0s;
+}
+.button-p:hover{
+    transform: scale(1.1);
+    pointer-events: mouse;
+    background-color: chartreuse;
+
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/*Main 2 - formulario*/
+#main2{
+    width: 100%;
+    height: 92vh;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: rgb(218, 212, 212);
+}
+
+#img{
+    width: 40%;
+    background-color: chartreuse;
+
+}
+
+#main-formulario{
+    width: 40%;
+    display: flex;
+    margin: auto;
+    padding: 30px;
+    flex-direction: column;
+}
+
+#main-formulario, #pcolor{
+    font-size: 30pt;
+    font-weight: 600;
+}
+
+#main-formulario input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30px;
+    margin: 5px;
+    border: solid 1px rgb(170, 162, 162);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#form-titulo{
+    font-size: 30pt;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+#main-formulario button{
+    width: 100%;
+}
+
+/*Main 3 */
+#main3{
+    width: 100%;
+    height:  100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#main3 p span{
+    font-size: 15pt;
+}
+
+#text-main-3{
+    width: 40%;
+    height: 80vh;
+    text-align: justify;
+    line-height: 2;
+    padding: 7vh;
+    margin: 10px;
+    font-size: 12pt;
+    gap: 20px;
+}
+
+#img {
+    background-color: chartreuse;
+    width: 50%;
+}
+
+/*Main 4*/
+#main4{
+    background-color: chartreuse;
+    color: #fff;
+    height: 60vh;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#text-main-4{
+    width: 40%;
+    text-align: center;
+}
+
+#text-main-4 h2{
+    margin: 10px;
+    font-size: 30pt;
+}
+
+#text-main-4 p{
+    margin: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/*Main 5*/
+#main5{
+    height: 92vh;
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#fundo-text-5{
+    background-color: aliceblue;
+    height: 60vh;
+    width: 45%;
+    opacity: 0.2;
+    border-radius: 10px;
+    padding: 50px;
+
+}
+
+#text-main-5{
+    width: 45%;
+    text-align: center;
+    line-height: 2;
+    opacity: 1.0;
+}
+
+#text-main-5 > .button-P{
+    width: 45%;
+}
+
+/*Main 6*/
+#main6{
+    height: 92vh;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#comofun{
+    text-align: center;
+    margin: 2px;
+    margin-top: 8px;
+    padding: 10px;
+    font-size: 30pt;
+    color: rgb(157, 153, 153);
+}
+
+.cont{
+    width: 18%;
+    height: 40vh;
+    background-color: aliceblue;
+    border: solid 0.3 black;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 5px;
+}
+
+.cont img{
+    width: 10vh;
+    height: 10vh;
+}
+
+.cont .cor{
+    color: green;
+}
+
+/*Main7*/
+
+#main7{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+#esquerdo{
+    width: 50%;
+    padding: 10px;
+    gap: 30px;
+}
+
+#direito{
+    width: 30%;
+}
+
+#tipos{
+    border: solid 1px greenyellow;
+}
+
+.button-menu{
+    background-color: #fff;
+    width: 100%;
+}
