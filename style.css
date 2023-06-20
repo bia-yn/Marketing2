@@ -7,34 +7,44 @@
 #logo{
     width: 100%;
     height: 5rem;
-    background-color: black;
+    background-color: #f70606;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    float: left;
+    position: fixed;
 }
+
+#logo img{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+
 
 /*main 1*/
 #main1{
-    height: 92vh;
-    align-items: center;
-    margin: auto;
+    background-color: black;
+    color: #fff;
+    height: 120vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 10px;
 }
 
 #text-main-1{
-    width: 40%;
-    height: 100px;
-    margin: auto;
-    text-align: center;
-    
+    width: 20%;
+    height: 400px;
+    text-align: justify;
+    padding: 10px;
+    font: 600;
+    color: #fff;
 }
 
-#pcolor{
-    color:  rgb(110, 147, 74);
-    font-weight: 300;
-}
 
 .button-p{
-    background-color: rgb(110, 147, 74);
+    background-color: rgb(245, 6, 6);
     color: #fff;
     padding: 25px;
     margin: 20px;
@@ -66,11 +76,6 @@ a{
     background-color: rgb(218, 212, 212);
 }
 
-#img{
-    width: 40%;
-    background-color: chartreuse;
-
-}
 
 #main-formulario{
     width: 40%;
@@ -132,13 +137,13 @@ a{
 }
 
 #img {
-    background-color: chartreuse;
+    background-color: rgb(13, 13, 13);
     width: 50%;
 }
 
 /*Main 4*/
 #main4{
-    background-color: chartreuse;
+    background-color: rgb(15, 15, 15);
     color: #fff;
     height: 60vh;
     padding: 30px;
@@ -176,7 +181,7 @@ a{
 }
 
 #fundo-text-5{
-    background-color: aliceblue;
+    background-color: rgb(238, 61, 61);
     height: 60vh;
     width: 45%;
     opacity: 0.2;
