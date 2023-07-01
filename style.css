@@ -12,15 +12,20 @@ body{
 #logo{
     width: 100%;
     height: 12vh;
-    background-color: #f70606;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: solid black 2px;
+    position: fixed;
+    background: rgb(255,35,35);
+background: linear-gradient(135deg, rgba(255,35,35,1) 0%, rgba(253,212,212,1) 49%, rgba(210,0,0,0.9755252442773985) 100%);
 }
 
 #logo img{
-    width: 150px;
-    height: 150px;
-    margin: auto;
+    width: 200px;
+    height: 200px;
+    margin: 0;
 }
 
 
@@ -30,10 +35,9 @@ body{
     background: url(/img/pexels-daniel-absi-952670.jpg);
     background-position-y: center;
     color: #fff;
-    height: 82vh;
+    height: 92vh;
     display: flex;
     gap: 30px;
-    align-items: center;
     flex-direction: row;
     align-items: center;
     padding: 5px;
